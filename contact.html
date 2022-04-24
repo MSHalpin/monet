@@ -5,25 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>History of Claude Monet-Contact</title>
-    <link href="style.css" rel="stylesheet" type="text/css"> 
+    <link href="style_contact.css" rel="stylesheet" type="text/css"> 
 </head>
     <body>
         <div class="wrapper">
+        
             <header>
                 <img src="icons/blue.jpeg" alt="Blue back image">
                 <h1>History of Claude Monet</h1>
                 <h4>"I would like to paint the way a bird sings."<span> [15]</span><br>– Claude Monet</h4>
             </header>
+
             <nav>
                 <a href="index.html">Home</a> |   
                 <a href="about.html">About</a> |
                 <a href="contact.html">Contact</a> 
-            </nav>  
+            </nav> 
              
-            <h2 class="title">Contact Us</h2>
+
+            <section>
+                <h2 class="title">Contact Us</h2>
+            </section>
+
+            <main>
             <h5>Don't hesitate to contact us - we would love to hear from you.</h5>
             
-            <form>
+            <form action=”mailto:mayumihsasaki@gmail.com”
+                method=”POST”
+                enctype=”multipart/form-data”
+                name=”EmailForm”>
                 <div>
                     <label for="name">Name: </label>
                     <input type="text" id="name" name="user_name">
@@ -40,11 +50,17 @@
                 <button type="submit">Send</button> 
                 </div> 
             </form>  
+
+            <div class="email">OR<br><br>
+            Send me E-mail: mhalpin.design@gmail.com</div>
             
-            <p class="reference">Reference</p>
-            <ol class="square_style">
-                <li>[15] Wikipedia, (2021), What are Wikipedia? Available: https://en.wikipedia.org/wiki/Impression,_Sunrise [accessed 28 February, 2022].</li>
-            </ol>
+            <div class="reference">
+                <h3>Reference</h3>
+                <div class="wiki">
+                [15] Denver Art Museum, (no date available), What are Denver Art Museum? Available: https://www.denverartmuseum.org/en/blog/20-quotes-claude-monet [accessed 28 February, 2022].
+                </div>
+            </div>
+            </main>
 
             <footer>
                 <p>Designed and Developed By Mayumi Halpin</p>
