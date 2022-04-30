@@ -67,8 +67,15 @@ nav a {
     font-family: Roboto;
 }
 
+.current {
+    background-color: #fcf8f8;
+    color: rgb(100, 49, 100);
+    font-weight: bolder;
+   }
+
 a:hover {
     text-decoration: underline;
+    text-decoration-thickness: 3px;
 }
 
 .title {
@@ -242,6 +249,10 @@ footer {
         margin-bottom: 10px;
     }
     
+    nav a {
+        padding: 5px 12px 12px 12px;
+    }
+
     .semi_title {
         margin: 20px 60px;
     }
@@ -362,9 +373,9 @@ footer {
     }
 
     nav a {
-        padding: 20px;
+        padding: 5px 12px 12px 12px;
         font-size: 15px;
-    }    
+    } 
 
     .title {
         padding-top: 40px;
@@ -482,7 +493,7 @@ footer {
     }
 
     nav a {
-        padding: 20px;
+        padding: 5px 12px 12px 12px;
         font-size: 15px;
     }    
  
@@ -601,7 +612,7 @@ footer {
     }
      
     nav a {
-         margin-bottom: 5px;
+        padding: 5px 12px 12px 12px;
     }
 
     .title {

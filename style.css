@@ -60,14 +60,20 @@ nav {
 }
 
 nav a {
-    padding: 12px;
-    color: #f8f4f7;
+    color: #fcf8f8;
     text-decoration: none;
     font-family: Roboto;
 }
 
+.current {
+    background-color: #fcf8f8;
+    color: rgb(100, 49, 100);
+    font-weight: 900;
+   }
+
 a:hover {
     text-decoration: underline;
+    text-decoration-thickness: 3px;
 }
 
 .title {
@@ -354,6 +360,10 @@ button:hover {
         margin-bottom: 10px;
     }
 
+    nav a {
+        padding: 5px 12px 12px 12px;
+    }
+
     .p_last {
         width: 700px;
         padding-top: 20px;
@@ -473,7 +483,7 @@ button:hover {
     }
 
     nav a {
-        padding: 20px;
+        padding: 5px 12px 12px 12px;
         font-size: 15px;
     }    
 
@@ -606,7 +616,7 @@ button:hover {
     }
 
     nav a {
-        padding: 20px;
+        padding: 5px 12px 12px 12px;
         font-size: 15px;
     }    
 
@@ -737,7 +747,7 @@ button:hover {
     }
     
     nav a {
-        margin-bottom: 5px;
+        padding: 5px 12px 12px 12px;
     }
 
     .title {
